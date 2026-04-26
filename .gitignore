@@ -16,6 +16,7 @@ hooks/
 *.meta.json
 tool-results/
 plans/
+node_modules/
 .credentials.json
 settings.local.json
 history.jsonl
