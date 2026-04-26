@@ -30,9 +30,9 @@ cd ~/mcp-servers/youtube && npm install
 
 ### 4. Fix username in settings.json
 ```bash
-sed -i 's|/home/liran|/home/YOUR_USERNAME|g' ~/.claude/settings.json
+sed -i '' 's|/home/liran|/home/YOUR_USERNAME|g' ~/.claude/settings.json
 ```
-(skip if your username is also `liran`)
+(Mac requires the empty `''` after `-i`. Skip entirely if your username is also `liran`)
 
 ### 5. Done
 Open Claude Code — memories load automatically. Use the YouTube MCP by pasting any YouTube URL.
